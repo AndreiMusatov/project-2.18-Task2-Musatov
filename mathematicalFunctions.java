@@ -43,15 +43,15 @@ public class mathematicalFunctions {
 
         System.out.println();
 
-        System.out.println("Целочисленное деление a на b: " + (a / b));
+        System.out.println("Результат целочисленного деления a на b: " + (a / b));
 
-        System.out.println("Деление a на b (с плавающей запятой): " + ((double) a / b));
+        System.out.println("Результат деления a на b: " + ((double) a / b));
 
-        System.out.println("Деление a на b, округленное вверх: " + Math.ceil((double) a / b));
+        System.out.println("Результат деления a на b с округлением в большую сторону: " + Math.ceil((double) a / b));
 
-        System.out.println("Деление a на b, округленное вниз: " + Math.floor((double) a / b));
+        System.out.println("Результат деления a на b с округлением в меньшую сторону: " + Math.floor((double) a / b));
 
-        System.out.println("Деление a на b, математическое округление: " + Math.round((double) a / b));
+        System.out.println("Результат деления a на b с математическим округлением: " + Math.round((double) a / b));
 
         System.out.println("Остаток от деления b на c: " + (b % c));
 
