@@ -17,9 +17,12 @@ public class mathematicalFunctions {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите три целых числа, разделенных пробелами:");
+        System.out.println("Введите 3 числа:");
+        System.out.print("a = ");
         int a = scanner.nextInt();
+        System.out.print("b = ");
         int b = scanner.nextInt();
+        System.out.print("c = ");
         int c = scanner.nextInt();
 
         System.out.print("Значения, кратные 5: ");
